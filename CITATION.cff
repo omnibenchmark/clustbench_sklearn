@@ -22,7 +22,7 @@ references:
     doi: "10.1016/j.softx.2022.101270"
     url: "https://clustering-benchmarks.gagolewski.com"
 
-  - type: dataset
+  - type: data
     authors:
       - family-names: "Gagolewski"
         given-names: "Marek"
@@ -45,3 +45,32 @@ references:
     pages: "8-23"
     year: 2016
     doi: "10.1016/j.ins.2016.05.003"
+
+  # The libraries this module calls, with the versions its environment pins
+  # where a package rather than a paper is cited.
+
+  - type: article
+    authors:
+      - {family-names: "Pedregosa", given-names: "Fabian"}
+      - {family-names: "Varoquaux", given-names: "Gaël"}
+      - {family-names: "Gramfort", given-names: "Alexandre"}
+      - {family-names: "Michel", given-names: "Vincent"}
+      - {family-names: "Thirion", given-names: "Bertrand"}
+      - {family-names: "Grisel", given-names: "Olivier"}
+      - {family-names: "Blondel", given-names: "Mathieu"}
+      - {family-names: "Prettenhofer", given-names: "Peter"}
+      - {family-names: "Weiss", given-names: "Ron"}
+      - {family-names: "Dubourg", given-names: "Vincent"}
+      - {family-names: "Vanderplas", given-names: "Jake"}
+      - {family-names: "Passos", given-names: "Alexandre"}
+      - {family-names: "Cournapeau", given-names: "David"}
+      - {family-names: "Brucher", given-names: "Matthieu"}
+      - {family-names: "Perrot", given-names: "Matthieu"}
+      - {family-names: "Duchesnay", given-names: "Édouard"}
+    title: "Scikit-learn: Machine Learning in Python"
+    journal: "Journal of Machine Learning Research"
+    volume: "12"
+    start: "2825"
+    end: "2830"
+    year: 2011
+    url: "https://jmlr.org/papers/v12/pedregosa11a.html"
